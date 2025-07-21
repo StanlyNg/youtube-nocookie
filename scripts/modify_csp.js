@@ -1,4 +1,5 @@
 // Modify CSP to allow youtube-nocookie.com where youtube.com is allowed
+// 修改 CSP，在允许 youtube.com 的地方允许 youtube-nocookie.com
 function modify_csp_to_allow_nocookie(requestDetails)
 {
   var modified_csp = false;
